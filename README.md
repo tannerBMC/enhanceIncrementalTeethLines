@@ -8,5 +8,7 @@ extractCementumPatchesEnhanceIL.m extracts tooth cementum patches and enhances i
 
 Define data directories and parameters in dataParameterDefinitionTeeth.m. 
 
+optimizeProjection.m does the automatic enhancement of the incremental teeth lines by finding a rotation angle which maximized standard devation of 1D intensity profiles orthogonal to the teeth lines after mean intensity projecton.
+
 The method is described in 
 Tanner et al., Extended-field synchrotron microtomography for non-destructive analysis of incremental lines in archeological human teeth cementum, Proceedings of SPIE 11840 (2021) 1184019, DOI:10.1117/12.2595180
